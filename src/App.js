@@ -67,10 +67,10 @@ function App() {
         </div>
         <div class="contact">
             <p>Contact</p>
-            <img class="instagram"  src={insta}></img>
+            <img class="instagram" src={insta}></img>
             <img class="gmail"  src={gmail}></img>
             <div class="social">
-            <p>_alfred.w_</p>
+            <a class="link" href='https://instagram.com/_alfred.w_?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D'>_alfred.w_</a>
             <p>alfredvineeth7@gmail.com</p>
             </div>
         </div>

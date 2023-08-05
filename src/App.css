@@ -285,16 +285,24 @@
     position: absolute;
     font-size: 25px;  
     height: 195px;
-    top: 200px;
+    top: 220px;
     left: 50px;
     line-height: 70px;
 }
 
+.social:hover{
+  cursor: pointer;
+}
 .instagram{
     position: absolute;
     height: 60px;
     left: -50px;
     top: 225px;
+}
+
+.link{
+  color: black;
+  
 }
 
 .gmail{
