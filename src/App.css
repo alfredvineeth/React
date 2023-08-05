@@ -1,38 +1,303 @@
-.App {
-  text-align: center;
+.bg{
+    position: absolute;
+    z-index: -1;
+    width: 1519px;
+    padding: 0%;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo{
+  position: absolute;
+  padding: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Nav{
+    position: absolute;
+    left: 1000px;
+    top: 3px;
+    word-spacing: 50px;
+    font-family: Russo One;
+    font-size: 34px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.banner_text{
+    position: absolute;
+    font-family: Russo One;
+    font-size: 150px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 27.9px; 
+    top: 175px;
 }
 
-.App-link {
-  color: #61dafb;
+.myimg{
+    position: absolute;
+    left: 475px;
+    size-adjust: 40vh;
+    
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.scroll{
+    position: absolute;
+    font-family: Russo One;
+    font-size: 30px;
+    top: 900px;
+    left: 630px;
+}
+
+.about{
+    position: absolute;
+    top:1000px;
+    left: 650px;
+    font-family: Russo One;
+    font-size: 65px;  
+}
+
+.para{
+    position: absolute;
+    top: 1150px;
+    text-align: center;
+    left: 20px;
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    line-height: 70px;
+}
+
+.interests{
+    position: absolute;
+    font-size: 65px;
+    font-family: Russo One;
+    top: 1500px;
+    left: 610px;
+}
+
+/* .interests:hover{
+    color: firebrick;
+    animation-delay: 5ms;
+    cursor: pointer;
+} */
+
+.inter{
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    top: 1670px;
+    left: 650px;
+    text-align: center;
+    line-height: 130px;
+}
+
+.interim{
+    position: absolute;
+    top: 60px;
+}
+
+.html{
+    position: absolute;
+    height: 125px;
+    left: 210px;
+    top: 135px;
+    z-index: -1;
+}
+
+.htmldes{
+    position: absolute;
+    font-size: 20px;
+    left: 50px;
+    text-align: center;
+    z-index: 1;
+    display: none;
+}
+
+.html:hover + .htmldes{
+    cursor: pointer;
+    display: block;
+    font-family: Russo One;
+    cursor: pointer;
+}
+
+.css{
+    position: absolute;
+    height: 125px;
+    top: 135px;
+    left: 375px;
+}
+
+.cssdes{
+    position: absolute;
+    font-size: 20px;
+    left: 40px;
+    text-align: center;
+    z-index: 1;
+    display: none;
+}
+
+.css:hover + .cssdes{
+    display: block;
+    font-family: Russo One;
+    cursor: pointer;
+}
+
+
+.js{
+    position: absolute;
+    height: 125px;
+    top: 135px;
+    left: 540px;
+
+}
+
+.jsdes{
+    position: absolute;
+    font-size: 20px;
+    left: 40px;
+    text-align: center;
+    z-index: 1;
+    display: none;
+}
+
+.js:hover + .jsdes{
+    display: block;
+    font-family: Russo One;
+    cursor: pointer;
+}
+
+.react{
+    position: absolute;
+    height: 125px;
+    top: 135px;
+    left: 850px;
+}
+
+.reactdes{
+    position: absolute;
+    font-size: 20px;
+    left: 1240px;
+    text-align: center;
+    z-index: 1;
+    display: none;
+}
+
+.react:hover + .reactdes{
+    display: block;
+    font-family: Russo One;
+    cursor: pointer;
+}
+
+.Mongo{
+    position: absolute;
+    height: 195px;
+    top: 100px;
+    left: 980px;
+    
+}
+
+.Mongodes{
+    position: absolute;
+    font-size: 20px;
+    left: 1240px;
+    text-align: center;
+    z-index: 1;
+    display: none;
+}
+
+.Mongo:hover + .Mongodes{
+    display: block;
+    font-family: Russo One;
+    cursor: pointer;
+}
+
+.fl{
+    position: absolute;
+    height: 125px;
+    top: 300px;
+    left: 500px;
+}
+
+.fldes{
+    position: absolute;
+    font-size: 20px;
+    left: 40px;
+    text-align: center;
+    z-index: 1;
+    display: none;
+}
+
+.fl:hover + .fldes{
+    display: block;
+    font-family: Russo One;
+    cursor: pointer;
+}
+
+.lightroom{
+    position: absolute;
+    height: 125px;
+    top:470px;
+    left: 875px;
+}
+
+.lightroomdes{
+    position: absolute;
+    font-size: 20px;
+    left: 1240px;
+    text-align: center;
+    z-index: 1;
+    display: none;
+}
+
+.lightroom:hover + .lightroomdes{
+    display: block;
+    font-family: Russo One;
+    cursor: pointer;
+}
+
+.background{
+    position: absolute;
+    height: 195px;
+    top: 140px;
+    left: 1025px;
+    height: 125px;
+    z-index: -1;        
+}
+.impos{
+    position: absolute;
+    top: 1500px;
+}
+.contact{
+    position: absolute;
+    font-family: Russo One;
+    font-size: 65px;  
+    height: 195px;
+    top: 2190px;
+    left: 650px;
+
+}
+
+.social{
+    font-family: Russo One;
+    position: absolute;
+    font-size: 25px;  
+    height: 195px;
+    top: 200px;
+    left: 50px;
+    line-height: 70px;
+}
+
+.instagram{
+    position: absolute;
+    height: 60px;
+    left: -50px;
+    top: 225px;
+}
+
+.gmail{
+    position: absolute;
+    height: 60px;
+    left: -36px;
+    top: 320px;
 }
