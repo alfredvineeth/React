@@ -275,7 +275,7 @@
     font-family: Russo One;
     font-size: 65px;  
     height: 195px;
-    top: 2190px;
+    top: 3200px;
     left: 650px;
 
 }
@@ -302,7 +302,6 @@
 
 .link{
   color: black;
-  
 }
 
 .gmail{
@@ -310,4 +309,17 @@
     height: 60px;
     left: -36px;
     top: 320px;
+}
+
+.anything{
+    position:absolute;
+    top: 2300px;
+    left: 200px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
+
+.profile{
+    position: absolute;
+    
 }

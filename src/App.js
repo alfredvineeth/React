@@ -12,6 +12,11 @@ import light from './lightroom.png'
 import bgackground from './black.png'
 import insta from './instagram.png'
 import gmail from './gmail.png'
+import { BrowserRouter, Route, Routes, Switch} from 'react-router-dom';
+import './App.css';
+import Navbar from './NavLayout';
+
+
 
 function App() {
   return (
@@ -74,11 +79,17 @@ function App() {
             <p>alfredvineeth7@gmail.com</p>
             </div>
         </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Navbar />} >
+          
+        </Route>
+      </Routes>
+    </BrowserRouter>
     </div>   
     </div>
-
   );
-
 }
 
 export default App;
+
