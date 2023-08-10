@@ -1,0 +1,7 @@
+.images img {
+    max-width: 100%; /* Images won't exceed the width of their container */
+    max-height: 300px; /* Images won't exceed 300px in height */
+    width: auto;
+    height: auto;
+    margin-bottom: 20PX;
+  }
